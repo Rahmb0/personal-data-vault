@@ -1,0 +1,62 @@
+arweave-data-repo/
+├── src/
+│   ├── api/
+│   │   └── index.ts
+│   ├── config/
+│   │   ├── arweave.ts
+│   │   ├── database.ts
+│   │   └── logger.ts
+│   ├── controllers/
+│   │   ├── DataController.ts
+│   │   ├── TokenController.ts
+│   │   ├── AnalyticsController.ts
+│   │   └── index.ts
+│   ├── services/
+│   │   ├── DataService.ts
+│   │   ├── TokenService.ts
+│   │   ├── AnalyticsService.ts
+│   │   └── index.ts
+│   ├── middlewares/
+│   │   ├── authenticate.ts
+│   │   ├── errorHandler.ts
+│   │   ├── rateLimit.ts
+│   │   ├── validateDataInput.ts
+│   │   └── index.ts
+│   ├── models/
+│   │   ├── Data.ts
+│   │   ├── Token.ts
+│   │   ├── Usage.ts
+│   │   └── index.ts
+│   ├── types/
+│   │   ├── data.types.ts
+│   │   ├── token.types.ts
+│   │   └── index.ts
+│   ├── utils/
+│   │   ├── encryption.ts
+│   │   ├── validation.ts
+│   │   └── helpers.ts
+│   ├── app.ts
+│   ├── routes.ts
+│   └── index.ts
+├── tests/
+│   ├── integration/
+│   │   └── api/
+│   │       └── data.test.ts
+│   ├── unit/
+│   │   └── services/
+│   │       └── DataService.test.ts
+│   ├── e2e/
+│   │   └── workflow.test.ts
+│   ├── helpers/
+│   │   └── index.ts
+│   └── setup.ts
+├── scripts/
+│   ├── wallet-setup.ts
+│   └── deploy.ts
+├── .env.example
+├── .eslintrc.js
+├── .gitignore
+├── jest.config.js
+├── package.json
+├── README.md
+└── tsconfig.json 

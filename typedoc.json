@@ -1,0 +1,21 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs/api-reference",
+  "exclude": ["**/node_modules/**", "**/tests/**"],
+  "theme": "default",
+  "name": "Arweave Data Repository API Reference",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "categoryOrder": [
+    "Models",
+    "Services",
+    "Controllers",
+    "Middleware",
+    "Utils",
+    "Types",
+    "*"
+  ]
+} 
