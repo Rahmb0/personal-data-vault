@@ -1,4 +1,4 @@
-# Arweave Data Repository 🚀
+# Personal Data Vault 🚀
 
 > A decentralized personal data vault powered by Arweave blockchain. Store, manage, and share your data with complete sovereignty.
 
